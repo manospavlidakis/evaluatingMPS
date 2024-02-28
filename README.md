@@ -1,5 +1,6 @@
 # evalutingMPS
 Dir kernel\_without\_inout contains the microbenchmark that will run mulitple times to evaluate the performance improvement provided by MPS compared to Native.
+This is an open bug reported in NVIDIA Developer forum with id 3559606. The issue is that when running mulitple clients with MPS is slower than Native CUDA that used time-sharing.
 
 ## Compile
 Use the Makefile in kernel\_without\_inout.
